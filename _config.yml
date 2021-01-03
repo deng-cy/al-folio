@@ -3,10 +3,12 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
+<<<<<<< HEAD
 # first_name: Changyu Deng
 # middle_name: R.
 last_name: Changyu Deng
 email: dengcy@umich.edu
+=======
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal website of Changyu Deng
 
@@ -26,14 +28,16 @@ last_updated: true # set to true if you want to display last updated in the foot
 
 navbar_fixed: true
 footer_fixed: true
+
+# Dimensions
+max_width: 800px
+
 # TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------
 # Open Graph
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-# To achieve this, change serve_og_meta to true and then provide the URL of the
-# preview image as the value of og_image.
 serve_og_meta: false # Include Open Graph meta tags in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
@@ -113,7 +117,12 @@ plugins:
 
 scholar:
 
+<<<<<<< HEAD
   last_name: Deng
+=======
+  last_name: Einstein
+  first_name: [Albert, A.]
+>>>>>>> 0369fe35e50f1bc6ca9fc9e95f198ddc69eac119
 
   style: apa
   locale: en
@@ -139,7 +148,7 @@ enable_google_analytics:  true
 enable_mansory:           true
 enable_math:              true
 enable_tooltips:          false
-enable_darkmode:          false
+enable_darkmode:          true
 show_social_icons:        false
 
 # -----------------------------------------------------------------------------
