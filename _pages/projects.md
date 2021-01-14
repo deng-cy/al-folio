@@ -3,7 +3,7 @@ layout: page
 title: Projects
 idx: 6
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: My recent research projects.
 nav: true
 ---
 
