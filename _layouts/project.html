@@ -1,0 +1,14 @@
+---
+layout: page
+---
+<article>
+    {{ content }}
+</article>
+
+<h2 id="related-publications">Related publications</h2>
+
+<div class="publications">
+
+  {% bibliography -f papers -q @*[project={{page.project}}]* %}
+
+</div>

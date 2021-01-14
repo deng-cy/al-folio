@@ -35,6 +35,12 @@ a, table.table a {
   text-align: center;
 }
 
+.caption-left{
+  font-size: 0.875rem;
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
 
 // Profile
 
@@ -279,7 +285,7 @@ footer.sticky-bottom {
 
 .projects {
   .grid-item {
-    width: 250px;
+    width: 380px;
     margin-bottom: 10px;
     a {
       color: black;
@@ -428,3 +434,12 @@ html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
 }
+
+.tbl{
+  border-collapse: collapse;
+  border-spacing: 0;
+  border:1px solid #000000;
+}
+// tr{
+//   border:1px solid #000000;
+// }

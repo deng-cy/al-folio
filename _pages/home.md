@@ -21,7 +21,7 @@ Welcome to my personal website!
 I am currently a PhD student at [University of Michigan, Ann Arbor](https://umich.edu/). I am in [Mechanical Engineering](https://me.engin.umich.edu/) and focus on modeling and design of rechargable batteries. Download my [**CV**](assets/pdf/resume.pdf).
 
 
-This website gives a brief introduction to me. I started to work on it in 2020/09. Now it includes [education](#education), [news](#education), [publications](/publications/index.html). I will add more information in the future.  
+This website gives a brief introduction to me. I started to work on it in 2020/09. Now it includes [education](#education), [news](#education), [publications](/publications/index.html), [projects](/projects/index.html). I will add more information in the future.  
 
 Please do not hesitate to contact me for any question, comment or complaint. I am working on various types of projects from coding to experiments, and have multiple hobbies such as video games, Go game, swmimming, and table tennis. So you are welcome to discuss any fun stuff with me :smiley: 
 
@@ -34,7 +34,7 @@ Please do not hesitate to contact me for any question, comment or complaint. I a
 
 
 * PhD Candidate, Mechanical Engineering
-* MSE, Electrical and Computer Engineering <span style="color:grey">(applying)</span>
+* MSE, Electrical and Computer Engineering <span style="color:grey"></span>
 * MSE, Mechanical Engineering <span style="color:grey">(2020/04)</span>
 
 **University of California, Los Angeles** <span style="color:grey">2017/07 - 2017/09</span>
@@ -54,19 +54,22 @@ Please do not hesitate to contact me for any question, comment or complaint. I a
 
 **Cell-level modeling and parameterization of Li-ion batteries** 
 
-* Psuedo two-dimensional (P2D) model with degradation mechanisms.
-* Experiments and regression to figure out the parameters used in the models.
+* Building psuedo two-dimensional (P2D) model with degradation mechanisms. 
+* Conducting experiments and regression to figure out the parameters used in the models. [[more](/projects/parameter)]
+* Investigating techniques to improve measurement acuracy. [[more](/projects/gitteis)]
+
 
 **Battery-related optimization algorithms** 
 
 
-* Both simulation and experiment in battery field are time-consuming, and it will be more problematic to optimize battery parameters.
-* Trying to design gradient-free algorithms to reduce the number of trials (configurations). The time-dependent nature of battery cycling will be considered.  
+* Background: both simulation and experiment in battery field are time-consuming, and it will be more problematic to optimize battery parameters and morphology. 
+* Trying to design gradient-free algorithms to reduce the number of trials (configurations).  [[more](/projects/solo)]
+* Considering the time-dependent nature of battery cycling will be considered. 
 
 	
 **Battery material design**
-* Manufacture materials based on the output of optimization. 
+* Manufacturing materials based on the output of optimization. [[more](/projects/pcx)]
 
-For previous research probjects, please refer to [publications](/publications/index.html).
+See [projects](/projects/index.html) for recent research. You can also click on "more" above to jump to those projects. For previous research probjects, please refer to [publications](/publications/index.html).
 
 ---

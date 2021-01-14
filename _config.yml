@@ -3,12 +3,11 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-<<<<<<< HEAD
-# first_name: Changyu Deng
+# first_name: Changyu
 # middle_name: R.
 last_name: Changyu Deng
 email: dengcy@umich.edu
-=======
+
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal website of Changyu Deng
 
@@ -117,12 +116,8 @@ plugins:
 
 scholar:
 
-<<<<<<< HEAD
   last_name: Deng
-=======
-  last_name: Einstein
-  first_name: [Albert, A.]
->>>>>>> 0369fe35e50f1bc6ca9fc9e95f198ddc69eac119
+  first_name: Changyu
 
   style: apa
   locale: en
