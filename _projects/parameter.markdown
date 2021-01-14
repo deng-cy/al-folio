@@ -13,7 +13,7 @@ This project aims to experimentally obtain the parameters of a graphite-NMC622 c
 
 ## Background
 
-Pesudo-two dimensional (P2D) model is a continuous model to describe the electrochemistry and transport of a battery, especially used in lithium ion batteries. To predict the battery performance by P2D model, there are multiple parameters needed in the model, such as electrode thickness, conductivity and so forth. 
+Pseudo-two dimensional (P2D) model is a continuous model to describe the electrochemistry and transport of a battery, especially used in lithium ion batteries. To predict the battery performance by P2D model, there are multiple parameters needed in the model, such as electrode thickness, conductivity and so forth. 
 
 <!-- Degradation mechanisms also have paramters such as reaction rate of side reactions. These parameters can be obtained by either measurement techniques or by fitting the experiment curves.  -->
 
