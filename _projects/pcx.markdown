@@ -2,7 +2,7 @@
 layout: project
 title: Anode for Na-ion batteries
 description: An extremely cheap anode made from red phosphorus and carbon xerogel
-img: /assets/img/p3_0.png
+img: /assets/img/p3_4.png
 importance: 3
 project: pcx
 ---
@@ -20,7 +20,7 @@ We mixed resorcinol with formaldehyde to form resorcinol-formaldehyde gel. After
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p3_1.png' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p3_1.png' | relative_url }}" alt="" title="image"/>
     </div>
 </div>
 <div class="caption-left">
@@ -33,7 +33,7 @@ We mixed resorcinol with formaldehyde to form resorcinol-formaldehyde gel. After
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p3_2.png' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p3_2.png' | relative_url }}" alt="" title="image"/>
     </div>
 </div>
 <div class="caption-left">
@@ -47,7 +47,7 @@ We mixed resorcinol with formaldehyde to form resorcinol-formaldehyde gel. After
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p3_3.png' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p3_3.png' | relative_url }}" alt="" title="image"/>
     </div>
 </div>
 <div class="caption-left">

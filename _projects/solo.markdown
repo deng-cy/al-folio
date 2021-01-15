@@ -2,7 +2,7 @@
 layout: project
 title: Optimizing battery electrode morphology
 description: Designed a gradient-free topology optimization algorithm based on deep neural networks, and applied it to battery electrode
-img: /assets/img/p1_3.png
+img: /assets/img/p1_0.png
 importance: 1
 project: solo
 ---
@@ -32,7 +32,7 @@ where $$\rho$$ is a 640-dimentional vector with each component equal to 0 (void)
 Traditionally, this problem will be converted to a continuous problem to solve by a gradient-based solver, since the dimension (i.e., number of variables) is too high for a gradient-free method. Think about all possible cases, it will be $$2^{640}\approx10^{192}$$; even if each case needs one second to compute the pressure, it would take $$\sim10^{185}$$ years! You cannot get the results before the end of the universe. 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p1_1.png' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p1_1.png' | relative_url }}" alt="" title="image"/>
     </div>
 </div>
 <div class="caption">
@@ -61,7 +61,7 @@ where $$w_i$$ denotes the weight of integration to confine the average volume fr
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p1_2.png' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p1_2.png' | relative_url }}" alt="" title="image"/>
     </div>
 </div>
 <div class="caption">
@@ -70,7 +70,7 @@ where $$w_i$$ denotes the weight of integration to confine the average volume fr
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p1_3.png' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p1_3.png' | relative_url }}" alt="" title="image"/>
     </div>
 </div>
 <div class="caption">

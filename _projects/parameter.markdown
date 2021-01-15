@@ -169,7 +169,7 @@ where the dense density values $$\rho_{graphite}$$, $$\rho_{PVDF}$$, and $$\rho_
 
 <div class="row justify-content-md-center">
     <div class="col-sm-10 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p4_1.png' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p4_1.png' | relative_url }}" alt="" title="image"/>
     </div>
 </div>
 <div class="caption">
@@ -185,10 +185,10 @@ where the dense density values $$\rho_{graphite}$$, $$\rho_{PVDF}$$, and $$\rho_
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p4_2.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p4_2.jpg' | relative_url }}" alt="" title="image"/>
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p4_3.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p4_3.jpg' | relative_url }}" alt="" title="image"/>
     </div>
 </div>
 <div class="caption">
@@ -216,10 +216,10 @@ where $$R_{ct}$$ is is the charge transfer resistance, $$F$$ is Faraday constant
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p4_4.png' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p4_4.png' | relative_url }}" alt="" title="image"/>
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p4_5.png' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p4_5.png' | relative_url }}" alt="" title="image"/>
     </div>
 </div>
 <div class="caption">

@@ -2,7 +2,7 @@
 layout: project
 title: Diffusivity from EIS and GITT
 description: Resolved the discrepancy of diffusivity measurement of GITT and EIS
-img: /assets/img/p2_1.png
+img: /assets/img/p2_0.jpg
 importance: 2
 project: gitteis
 ---
@@ -24,7 +24,7 @@ which is determined by the cell voltage response $$\left(\frac{\mathrm{d\ }V}{\m
 
 <div class="row justify-content-md-center">
     <div class="col-sm-10 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p2_0.png' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p2_0.png' | relative_url }}" alt="" title="image"/>
     </div>
 </div>
 <div class="caption">
@@ -42,7 +42,7 @@ For simplicity, we assume the particle have three possible geometries (plane, cy
 
 <div class="row justify-content-md-center">
     <div class="col-sm-8  mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p2_2.png' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p2_2.png' | relative_url }}" alt="" title="image"/>
     </div>
 </div>
 <div class="caption">
@@ -59,7 +59,7 @@ which is independent of either particle size or geometry. The figure below shows
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p2_3.png' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p2_3.png' | relative_url }}" alt="" title="image"/>
     </div>
 </div>
 <div class="caption-left">
@@ -70,7 +70,7 @@ which is independent of either particle size or geometry. The figure below shows
 
 <div class="row justify-content-md-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p2_4.png' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p2_4.png' | relative_url }}" alt="" title="image"/>
     </div>
 </div>
 <div class="caption">

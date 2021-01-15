@@ -50,26 +50,53 @@ Please do not hesitate to contact me for any question, comment or complaint. I a
 ---
 ## Research interests 
 	
-  I am working on modeling and design of rechargable batteries. Specifically, my research includes:
+  I am working on modeling and design of rechargable batteries. Specifically, my research includes the following. See [projects](/projects/index.html) for recent research. You can also click on "more" above to jump to those projects. For previous research probjects, please refer to [publications](/publications/index.html).
 
 **Cell-level modeling and parameterization of Li-ion batteries** 
 
 * Building psuedo two-dimensional (P2D) model with degradation mechanisms. 
 * Conducting experiments and regression to figure out the parameters used in the models. [[more](/projects/parameter)]
 * Investigating techniques to improve measurement acuracy. [[more](/projects/gitteis)]
-
+<div class="row justify-content-md-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <a href="{{ '/projects/gitteis' | relative_url }}"><img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p2_1.png' | relative_url }}" alt="" title="click to read more"/></a>
+    </div>
+</div>
+<div class="caption">
+  GITT and EIS are two popular techniques to measure diffusivity. Yet, their results sometimes have up to orders of magnitude difference. This project resolved the discrepancy of diffusivity measurement of GITT and EIS. Click on the figure to read more. 
+</div>
 
 **Battery-related optimization algorithms** 
 
 
 * Background: both simulation and experiment in battery field are time-consuming, and it will be more problematic to optimize battery parameters and morphology. 
 * Trying to design gradient-free algorithms to reduce the number of trials (configurations).  [[more](/projects/solo)]
+
+<div class="row justify-content-md-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <a href="{{ '/projects/solo' | relative_url }}"><img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p1_3.png' | relative_url }}" alt="" title="click to read more"/></a>
+    </div>
+</div>
+<div class="caption">
+  We tried to optimize the mophology of electrode for lithium ion batteries without any prior assumption on its pattern. We devised a gradient-free algoritm to solve such a problem and obtained a branch-like pattern. Click on the figure to read more. 
+</div>
+
 * Considering the time-dependent nature of battery cycling will be considered. 
 
 	
 **Battery material design**
 * Manufacturing materials based on the output of optimization. [[more](/projects/pcx)]
 
-See [projects](/projects/index.html) for recent research. You can also click on "more" above to jump to those projects. For previous research probjects, please refer to [publications](/publications/index.html).
+
+<div class="row justify-content-md-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <a href="{{ '/projects/pcx' | relative_url }}"><img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p3_0.png' | relative_url }}" alt="" title="click to read more"/></a>
+    </div>
+</div>
+<div class="caption">
+  We used a carbon template to make anode for batteries. As our preliminary result, we came up with a extremely cheep phosphorus/carbon anode material for sodium-ion batteries. Click on the figure to read more. 
+</div>
+
+
 
 ---
