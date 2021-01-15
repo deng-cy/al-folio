@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>  Changyu Deng | Optimizing battery electrode morphology</title>
+<meta name="description" content="Personal website of Changyu Deng
+">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/projects/solo/">
+
+<!-- Theming-->
+
+  <script src="/assets/js/theme.js"></script>
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9KGVBKTEMH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-9KGVBKTEMH');
+  </script>
+
+
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="/">
+       <span class="font-weight-bold"></span>   Changyu Deng
+      </a>
+      
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              Home
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                Publications
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                Projects
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+            <div class = "toggle-container">
+              <a id = "light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+              </a>
+            </div>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Optimizing battery electrode morphology</h1>
+    <p class="post-description">Designed a gradient-free topology optimization algorithm based on deep neural networks, and applied it to battery electrode.</p>
+  </header>
+
+  <article>
+    <article>
+    <p>This project challenges the current uniform electrode and hopes to develop a tool to find the optimal electrode morphology without any prior assumption on its pattern. Similar problems have been studied in topology optimization which is commonly used in solid mechanics. However, most of them are linear problems where the gradients can be easily derived. For batteries, by constrast, no gradient can be analytical obtained. As a result, current optimization algorithms cannot be used, and we designed a topology optimization algoritm called Self-directed Online Learning Optimization (SOLO). The algoritm was much faster than state-of-the-art gradient-free optimizers, and could be used to optimize electrode geometry.</p>
+
+<h2 id="background">Background</h2>
+
+<p>Since the invention of lithium-ion batteries, porous electrodes have been manufactured in essentially the same way: granulating active materials into powder, mixing them with some additives such as carbon black and binder, and pasting them on conductive substrate. Optimizations have been focusing on tuning parameters such as particle sizes, porosity and electrode thickness, with the assumption of a uniform electrode. Some recent work demonstrated better cell performance by engineering the shape of the electrode with features such as nano cylinders, tunnels and fractal branches. 3D printing has been used to fabricate the structure of batter electrode. On the simulation side, however, there have been few reports on freeform electrode shape optimization. Most shape optimizations assume a particular electrode pattern with a few adjustable dimensional parameters. Therefore, we want to propose a method to optimize porosity distribution of electrode without a prior assumption of the pattern.</p>
+
+<h2 id="results">Results</h2>
+
+<p>We first introduce topology optimization by a fluid-structure optimization example, and then look into the electrode optimization.</p>
+
+<h3 id="a-fluid-structure-example">A fluid-structure example</h3>
+<p>We use an example to explain what topology optimization is. As shown in subfigure <strong>a</strong> below, 
+the fluid enters the left inlet at a given velocity perpendicular to the inlet, and flows through the channel bounded by walls to the outlet where the pressure is set as zero. In the \(40\times 16\) mesh, we add solid blocks to change the flow field to minimize the friction loss when the fluid flows through the channel. Namely, we want to minimize the normalized inlet pressure</p>
+
+\[\min\limits_{\rho\in\{0,1\}^N }  \widetilde{P}(\rho)={P(\rho)}/{P(\rho_O)},\]
+
+<p>where \(\rho\) is a 640-dimentional vector with each component equal to 0 (void) or 1 (solid), \(P\) denotes the average inlet pressure, and \(\rho_O=(0,0,...,0)\) indicates no solid in the domain.</p>
+
+<p>Traditionally, this problem will be converted to a continuous problem to solve by a gradient-based solver, since the dimension (i.e., number of variables) is too high for a gradient-free method. Think about all possible cases, it will be \(2^{640}\approx10^{192}\); even if each case needs one second to compute the pressure, it would take \(\sim10^{185}\) years! You cannot get the results before the end of the universe.</p>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/p1_1.png" alt="" title="image" />
+    </div>
+</div>
+<div class="caption">
+    Setup and results of a fluid-structure optimization problem with 40x16 design variables. SOLO-G denotes the Greedy SOLO, a variant of our algoritm. 
+</div>
+
+<p>Our algoritm, Self-directed Online Learning Optimiation (SOLO) can significantly boost the gradient-free optimization. Subfigure <strong>b</strong> shows our pressure curve versus the gradient based (horizontal line). The algoritm only tried 1912 cases to converge (the cross “X”). Our solution (subfigure <strong>d</strong>) is better than the gradient-based method (subfigure <strong>c</strong>), since it has a lower pressure.</p>
+
+<p>We just showed a binary example. In fact, we can apply SOLO to continuous problems as well. In our experiments, our algoritm outperforms many state-of-the-art gradient-free algoritms, such as <strong>CMA-ES</strong> (Covariance Matrix Adaptation Evolution Strategy), <strong>BO</strong> (Bayesian Optimization), and <strong>SA</strong> (simulated annealing).</p>
+
+<h3 id="electrode-optimization">Electrode optimization</h3>
+
+<p>We apply SOLO to electrode optimization. Consider a NMC622/Li metal cell, We want to control the solid distribution in a domain to maximize the specific energy density:</p>
+
+\[\begin{array}{c}
+	\underset{\rho=(\rho _1,\rho _2,...,\rho _N)}{\max}E(\rho)\\
+	\left\{ \begin{array}{l}
+	\sum_{i=1}^N{w_i\rho _i}=0.5\\
+	\rho _i\in \left[ 0,1 \right] ,\text{ }i=1,...,N\\
+\end{array} \right.\\
+\end{array}.\]
+
+<p>where \(w_i\) denotes the weight of integration to confine the average volume fraction of solid material to be 0.5. The specific energy \(E\) given a solid distribution \(\rho\) is obtained by discharging the cell from 4.1 V to 3.5 V, calculated by the pseudo three-dimensional model (an extension of pseudo two-dimensional model). The results are shown below.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/p1_2.png" alt="" title="image" />
+    </div>
+</div>
+<div class="caption">
+    Optimal solid distribution in a 5x5 mesh
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/p1_3.png" alt="" title="image" />
+    </div>
+</div>
+<div class="caption">
+    Optimal solid distribution in a 9x9 mesh
+</div>
+
+</article>
+
+<h2 id="related-publications">Related publications</h2>
+
+<div class="publications">
+
+  <ol class="bibliography"><li><div class="row">
+  <!-- <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ECS Trans</abbr>
+    
+  
+  </div> -->
+
+  <div id="deng2020geometry" class="col-sm-10">
+    
+      <div class="title">Geometry Optimization of Porous Electrode for Lithium-Ion Batteries</div>
+      <div class="author">
+        
+          
+          
+          
+            
+              
+                <em>Changyu Deng</em>,
+              
+            
+          
+        
+          
+          
+          
+            
+              
+                
+                  and Wei Lu
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>ECS Transactions</em>
+      
+      
+        2020
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+      <a href="https://iopscience.iop.org/article/10.1149/09707.0249ecst" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    
+    
+      
+      <a href="https://iopscience.iop.org/article/10.1149/09707.0249ecst/pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>We report a method to optimize the topology of porous electrodes without a prior assumption of the pattern. We take a two-dimensional NMC-Li cell as an example. The domain of NMC is discretized by a 5×5 mesh and the solid volume fraction is represented by 25 nodal variables. We use a deep-learning-boosted optimization algorithm to find the optimal material distribution that gives the maximum specific energy. The method produces an electrode pattern with 18% higher specific energy than that of a uniform electrode. This generic geometry optimization approach provides a powerful tool for the design and optimization of porous electrodes.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <!-- <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">arXiv</abbr>
+    
+  
+  </div> -->
+
+  <div id="deng2020self" class="col-sm-10">
+    
+      <div class="title">Self-Directed Online Machine Learning for Topology Optimization</div>
+      <div class="author">
+        
+          
+          
+          
+            
+              
+                <em>Changyu Deng</em>,
+              
+            
+          
+        
+          
+          
+          
+            
+              
+                
+                Yizhou Wang,
+                
+              
+            
+          
+        
+          
+          
+          
+            
+              
+                
+                Can Qin,
+                
+              
+            
+          
+        
+          
+          
+          
+            
+              
+                
+                  and Wei Lu
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>arXiv:2002.01927</em>
+      
+      
+        2020
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+      <a href="https://arxiv.org/abs/2002.01927" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    
+    
+      
+      <a href="https://arxiv.org/pdf/2002.01927.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+      <a href="https://github.com/deng-cy/deep_learning_topology_opt" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Topology optimization by optimally distributing materials in a given domain requires stochastic optimizers to solve highly complicated problems. However, with hundreds of design variables or more involved, solving such problems would require millions of Finite Element Method (FEM) calculations whose computational cost is huge and impractical. Here we report a self-directed online learning method which integrates Deep Neural Network (DNN) with FEM calculations. A DNN learns and substitutes the objective as a function of design variables. A small amount of training data are generated dynamically around the DNN’s prediction of the global optimum. The DNN adapts to the new training data and gives better prediction in the region of interest until convergence. Our algorithm was tested by compliance minimization problems and demonstrated a reduction of computational time by over two orders of magnitude than the current method. This approach enables solving very large multi-dimensional optimization problems.
+</p>
+    </div>
+    
+  </div>
+</div>
+</li></ol>
+
+</div>
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright 2021   Changyu Deng.
+    <a href="https://github.com/deng-cy/deng-cy.github.io" target="_blank">View source</a>.
+
+    
+    Last updated: January 14, 2021.
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Load DarkMode JS -->
+<script src="/assets/js/dark_mode.js"></script>
+
+
+</html>
