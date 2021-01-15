@@ -52,7 +52,7 @@ Please do not hesitate to contact me for any question, comment or complaint. I a
 	
   I am working on modeling and design of rechargable batteries. Specifically, my research includes the following three categories. See [projects](/projects/index.html) for recent research projects. 
 
-### Cell-level modeling and parameterization of Li-ion batteries
+### 1. Cell-level modeling and parameterization of Li-ion batteries
 
 * Building psuedo two-dimensional (P2D) model with degradation mechanisms. 
 * Conducting experiments and regression to figure out the parameters used in the models. [[more](/projects/parameter)]
@@ -66,7 +66,7 @@ Please do not hesitate to contact me for any question, comment or complaint. I a
   GITT and EIS are two popular techniques to measure diffusivity. Yet, their results sometimes have up to orders of magnitude difference. This project resolved their discrepancy of diffusivity measurement. Click on the figure to read more. 
 </div>
 
-### Battery-related optimization algorithms
+### 2. Battery-related optimization algorithms
 
 
 * Background: both simulation and experiment in battery field are time-consuming, and it will be more problematic to optimize battery parameters and morphology. 
@@ -84,7 +84,7 @@ Please do not hesitate to contact me for any question, comment or complaint. I a
 * Considering the time-dependent nature of battery cycling will be considered. 
 
 	
-### Battery material design 
+### 3. Battery material design 
 
 * Manufacturing materials based on the output of optimization. [[more](/projects/pcx)]
 
