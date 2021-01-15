@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Diffusivity from EIS and GITT
-description: Resolved the discrepancy of diffusivity measurement of GITT and EIS
+description: GITT and EIS are two popular techniques to measure diffusivity. Yet, their results sometimes have up to orders of magnitude difference. This project resolved the discrepancy of diffusivity measurement of these two methods. 
 img: /assets/img/p2_0.jpg
 importance: 2
 project: gitteis

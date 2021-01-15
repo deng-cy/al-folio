@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Anode for Na-ion batteries
-description: An extremely cheap anode made from red phosphorus and carbon xerogel
+description: An extremely cheap anode made from red phosphorus and carbon xerogel.
 img: /assets/img/p3_4.png
 importance: 3
 project: pcx

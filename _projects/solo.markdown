@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Optimizing battery electrode morphology
-description: Designed a gradient-free topology optimization algorithm based on deep neural networks, and applied it to battery electrode
+description: Designed a gradient-free topology optimization algorithm based on deep neural networks, and applied it to battery electrode.
 img: /assets/img/p1_0.png
 importance: 1
 project: solo

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Parameterization of Li-ion battery
-description: Measured or calculated the parameters used in a physics-based model.
+description: Measured and calculated the parameters used in a psudo-two dimensional (P2D) model, a physics-based battery model.
 img: /assets/img/p4_0.png
 importance: 3
 project: gitteis

@@ -63,7 +63,7 @@ Please do not hesitate to contact me for any question, comment or complaint. I a
     </div>
 </div>
 <div class="caption">
-  GITT and EIS are two popular techniques to measure diffusivity. Yet, their results sometimes have up to orders of magnitude difference. This project resolved the discrepancy of diffusivity measurement of GITT and EIS. Click on the figure to read more. 
+  GITT and EIS are two popular techniques to measure diffusivity. Yet, their results sometimes have up to orders of magnitude difference. This project resolved their discrepancy of diffusivity measurement. Click on the figure to read more. 
 </div>
 
 **Battery-related optimization algorithms** 
