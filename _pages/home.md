@@ -62,7 +62,7 @@ Please do not hesitate to contact me for any question, comment or complaint. I a
         <a href="{{ '/projects/gitteis' | relative_url }}"><img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p2_1.png' | relative_url }}" alt="" title="click to read more"/></a>
     </div>
 </div>
-<div class="caption">
+<div class="caption-left">
   GITT and EIS are two popular techniques to measure diffusivity. Yet, their results sometimes have up to orders of magnitude difference. This project resolved their discrepancy of diffusivity measurement. Click on the figure to read more. 
 </div>
 
@@ -77,7 +77,7 @@ Please do not hesitate to contact me for any question, comment or complaint. I a
         <a href="{{ '/projects/solo' | relative_url }}"><img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p1_3.png' | relative_url }}" alt="" title="click to read more"/></a>
     </div>
 </div>
-<div class="caption">
+<div class="caption-left">
   We tried to optimize the mophology of electrode for lithium ion batteries without any prior assumption on its pattern. We devised a gradient-free algoritm to solve such a problem and obtained a branch-like pattern. Click on the figure to read more. 
 </div>
 
@@ -93,7 +93,7 @@ Please do not hesitate to contact me for any question, comment or complaint. I a
         <a href="{{ '/projects/pcx' | relative_url }}"><img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p3_0.png' | relative_url }}" alt="" title="click to read more"/></a>
     </div>
 </div>
-<div class="caption">
+<div class="caption-left">
   We used a carbon template to make anode for batteries. As our preliminary result, we came up with a extremely cheep phosphorus/carbon anode material for sodium-ion batteries. Click on the figure to read more. 
 </div>
 

@@ -18,9 +18,6 @@ nav: true
     <a href="{{ project.url | relative_url }}">
     {% endif %}
       <div class="card hoverable">
-        {% if project.img %}
-        <img src="{{ project.img | relative_url }}" alt="project thumbnail">
-        {% endif %}
         <div class="card-body">
           <h2 class="card-title">{{ project.title }}</h2>
           <p class="card-text">{{ project.description }}</p>
@@ -40,6 +37,12 @@ nav: true
             {% endif %}
           </div>
         </div>
+        {% if project.img %}
+        <center>
+        <img src="{{ project.img | relative_url }}" alt="project thumbnail">
+        </center>
+        {% endif %}
+        <br>
       </div>
     </a>
   </div>
